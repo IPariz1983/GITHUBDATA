@@ -1,0 +1,310 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp\\GitHubRepoApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp.Application\\GitHubRepoApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp.Application\\GitHubRepoApp.Application.csproj",
+        "projectName": "GitHubRepoApp.Application",
+        "projectPath": "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp.Application\\GitHubRepoApp.Application.csproj",
+        "packagesPath": "C:\\Users\\israe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\israe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp.Domain\\GitHubRepoApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp.Domain\\GitHubRepoApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp.Domain\\GitHubRepoApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp.Domain\\GitHubRepoApp.Domain.csproj",
+        "projectName": "GitHubRepoApp.Domain",
+        "projectPath": "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp.Domain\\GitHubRepoApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\israe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\israe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp.Infrastructure\\GitHubRepoApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp.Infrastructure\\GitHubRepoApp.Infrastructure.csproj",
+        "projectName": "GitHubRepoApp.Infrastructure",
+        "projectPath": "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp.Infrastructure\\GitHubRepoApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\israe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\israe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp.Domain\\GitHubRepoApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp.Domain\\GitHubRepoApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp\\GitHubRepoApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp\\GitHubRepoApp.csproj",
+        "projectName": "GitHubRepoApp",
+        "projectPath": "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp\\GitHubRepoApp.csproj",
+        "packagesPath": "C:\\Users\\israe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\israe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp.Application\\GitHubRepoApp.Application.csproj": {
+                "projectPath": "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp.Application\\GitHubRepoApp.Application.csproj"
+              },
+              "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp.Infrastructure\\GitHubRepoApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\israe\\source\\repos\\GitHubUser\\GitHubRepoApp.Infrastructure\\GitHubRepoApp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

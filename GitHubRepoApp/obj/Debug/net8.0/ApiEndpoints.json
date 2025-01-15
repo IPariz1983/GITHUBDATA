@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "GitHubRepoApp.Controllers.RepositoriesController",
+    "Method": "GetRepositories",
+    "RelativePath": "repos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GitHubRepoApp.Controllers.RepositoriesController",
+    "Method": "SyncRepositories",
+    "RelativePath": "repos/sync/{username}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
